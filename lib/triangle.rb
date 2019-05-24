@@ -23,8 +23,14 @@ class Triangle
   def kind
     if triangle?
       if @sides.uniq.length == 1
-        :equilateral
-
-
-
+        return :equilateral
+      elsif @sides.uniq.length == 2
+        return :isosceles
+      else
+        return :scalene
+      end
+    else 
+      raise TriangleError
+    end
+  end
 end
