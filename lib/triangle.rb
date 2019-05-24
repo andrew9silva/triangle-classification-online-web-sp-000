@@ -8,4 +8,8 @@ class Triangle
     @length_three = length_three
   end
 
+  def kind(length_one, length_two, length_three)
+    if length_one == length_two && length_two == length_three
+      "equilateral"
+
 end
