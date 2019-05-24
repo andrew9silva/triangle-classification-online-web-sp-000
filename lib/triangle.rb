@@ -21,7 +21,4 @@ class Triangle
       false
     end
   end
-
-
-
 end
