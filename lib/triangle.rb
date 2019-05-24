@@ -1,7 +1,10 @@
 class Triangle
 
   def initialize(length_one, length_two, length_three)
-    @sides << length_one
-    @sides << length_two
-    @sides << length_three
+    @length_one = length_one
+    @length_two = length_two
+    @length_three = length_three
   end
+
+  def kind
+    if (@)
