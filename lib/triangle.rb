@@ -21,7 +21,10 @@ class Triangle
   end
 
   def kind
-    if triangle? 
+    if triangle?
+      if @sides.uniq.length == 1
+        :equilateral
+
 
 
 end
