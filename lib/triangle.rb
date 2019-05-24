@@ -9,7 +9,8 @@ class Triangle
     @sides << length_three
   end
 
-  
+  def triangle
+    sum_one_and_two = @sides[0] + @sides[1]
 
 
 
