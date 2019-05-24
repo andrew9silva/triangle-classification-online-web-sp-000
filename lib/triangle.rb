@@ -9,6 +9,8 @@ class Triangle
     @sides << length_three
   end
 
+  
+
 
 
 end
